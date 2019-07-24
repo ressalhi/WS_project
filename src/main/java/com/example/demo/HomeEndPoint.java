@@ -17,6 +17,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class HomeEndPoint {
 
+	/**
+	 * Index.
+	 *
+	 * @return the map
+	 */
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Map<String, String> index() {
