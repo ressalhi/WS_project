@@ -21,6 +21,7 @@ public class BanqueRestService {
 	public double conversion(@PathParam(value="montant")double mt) {
 		return mt*11;
 	}
+
 	@GET
 	@Path("/hello")
 	@Produces(MediaType.APPLICATION_JSON)

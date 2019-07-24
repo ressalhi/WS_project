@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 public class JerseyConfig extends ResourceConfig{
 	public JerseyConfig() {
 		register(BanqueRestService.class);
+		register(HomeEndPoint.class);
 	}
 
 }
