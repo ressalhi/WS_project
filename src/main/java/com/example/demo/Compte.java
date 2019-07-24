@@ -3,15 +3,13 @@ package com.example.demo;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-//une entité est serialisable
 public class Compte implements Serializable {
-	
+
 	private int code;
 	private double solde;
 	private LocalDate dateCreation;
 	public Compte() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Compte(int code, double solde, LocalDate dateCreation) {
 		super();
@@ -37,6 +35,6 @@ public class Compte implements Serializable {
 	public void setDateCreation(LocalDate dateCreation) {
 		this.dateCreation = dateCreation;
 	}
-	
+
 
 }
